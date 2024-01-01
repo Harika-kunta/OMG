@@ -7,7 +7,7 @@ import { DirectorProfileComponent } from './director-profile/director-profile.co
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
-  {path:"Home", component:HomeComponent},
+  {path:"", component:HomeComponent},
   {path:"ContactUs", component:ContactUsComponent},
   {path:"AboutUs",  component:AboutUsComponent},
   {path:"DirectorProfile",  component:DirectorProfileComponent},
