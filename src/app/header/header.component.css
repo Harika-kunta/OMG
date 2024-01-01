@@ -1,0 +1,76 @@
+
+.navbar {
+  background-color: #333; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 5px; 
+  margin-left: 10px;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 70px; 
+}
+
+.nav-link {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  text-decoration: none; 
+}
+
+@media (max-width: 993px) {
+  .navbar-brand {
+    position: absolute;
+    left: 10px; 
+    top: 5px; 
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 10px;
+    top: 5px; 
+  }
+
+  .collapse {
+    position: fixed;
+    top: 50px; 
+    right: -100%; 
+    width: 80%; 
+    background-color: #333; 
+    transition: right 0.3s ease;
+    z-index: 999; 
+  }
+
+  .show {
+    right: 0; 
+  }
+}
