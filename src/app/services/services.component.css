@@ -26,20 +26,19 @@
 }
 
 
-/* Global Reset (optional, for consistent browser styles) */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Section Styles */
+
   .continued-industry-orientation {
     padding: 50px 0;
     background-color: #f9f9f9;
   }
   
-  /* Heading Styles */
+
   .heading {
     font-size: 36px;
     font-weight: bold;
@@ -49,7 +48,7 @@
     color: #152363;
   }
   
-  /* Byline Styles */
+
   .byline {
     font-size: 18px;
     text-align: center;
@@ -57,11 +56,11 @@
     margin-bottom: 40px;
   }
   
-  /* Column Styles */
+
   .continued-inner {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    flex-wrap: wrap; 
   gap: 20px; 
   }
   
@@ -79,8 +78,7 @@
     max-width: 100px;
     margin-bottom: 20px;
   }
-  
-  /* Heading and Description Styles */
+
   .col-md-4 h3 {
     font-size: 24px;
     margin-bottom: 15px;
